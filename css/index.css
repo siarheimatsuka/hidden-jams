@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Bridge SCSS → CSS variables: import colors.css and expose useful helpers */
+/* If you want to define SCSS variables mapped to CSS custom properties: */
+/* Emit the same variable mapping that exists in plain index.css so build can overwrite it. */
+:root {
+  /* Core surfaces */
+  --color-background: var(--page-bg);
+  --color-surface-1: var(--panel-bg);
+  --color-surface-2: var(--foreground-primary-bg);
+  --color-border: var(--foreground-primary-border);
+  /* Text */
+  --color-text-primary: var(--text-foreground);
+  --color-text-secondary: var(--text-secondary-foreground);
+  --color-text-tertiary: var(--text-muted-foreground);
+  /* Brand / Accent */
+  --primary-400: var(--icon-primary-foreground);
+  --primary-500: var(--icon-primary-foreground);
+  --primary-600: var(--icon-primary-foreground);
+  /* Neutrals */
+  --neutral-900: var(--neutral-bg);
+  --neutral-800: var(--neutral-bg);
+  /* Foregrounds groups */
+  --foreground-secondary-border: var(--foreground-secondary-border);
+  --foreground-secondary-bg: var(--foreground-secondary-bg);
+  --foreground-primary-bg: var(--foreground-primary-bg);
+  --foreground-primary-border: var(--foreground-primary-border);
+  --foreground-tertiary-border: var(--foreground-tertiary-border);
+  --foreground-tertiary-bg: var(--foreground-tertiary-bg);
+  /* Badges */
+  --badge-primary-bg: var(--badge-primary-bg);
+  --badge-primary-border: var(--badge-primary-border);
+  --badge-primary-foreground: var(--badge-primary-foreground);
+  --badge-pink-bg: var(--badge-pink-bg);
+  --badge-pink-border: var(--badge-pink-border);
+  --badge-pink-foreground: var(--badge-pink-foreground);
+  /* Icons */
+  --icon-foreground: var(--icon-foreground);
+  --icon-primary-foreground: var(--icon-primary-foreground);
+  --icon-secondary-foreground: var(--icon-secondary-foreground);
+  --icon-muted-foreground: var(--icon-muted-foreground);
+  --icon-misc-foreground: var(--icon-misc-foreground);
+  /* Status */
+  --status-warning-border: var(--status-warning-border);
+  --status-warning-fg: var(--status-warning-fg);
+  --status-warning-bg: var(--status-warning-bg);
+  --status-error-fg: var(--status-error-fg);
+  --status-error-border: var(--status-error-border);
+  --status-error-bg: var(--status-error-bg);
+  --status-success-fg: var(--status-success-fg);
+  --status-success-bg: var(--status-success-bg);
+  --status-success-border: var(--status-success-border);
+  --status-success-border-secondary: var(--status-success-border-secondary);
+  /* Toggle */
+  --toggle-bg-inactive: var(--toggle-bg-inactive);
+  --toggle-bg-active: var(--toggle-bg-active);
+  --toggle-fg: var(--toggle-fg);
+}
+
+
+
+/*# sourceMappingURL=index.css.map */

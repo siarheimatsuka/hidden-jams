@@ -1,0 +1,53 @@
+/* Design color tokens */
+:root {
+  /* Status */
+  --status-warning-border: #F6C84540;
+  --status-warning-fg: #F6C845;
+  --status-warning-bg: #F6C8451A;
+  --status-error-fg: #FF4C4C;
+  --status-error-border: #FF4C4C4D;
+  --status-error-bg: #FF4C4C24;
+  --status-success-fg: #03D6B3;
+  --status-success-bg: #03D6B31A;
+  --status-success-border: #03D6B34D;
+  --status-success-border-secondary: #03D6B314;
+  /* Neutral */
+  --neutral-bg: #1D1E20;
+  --neutral-border: #323336;
+  /* Panel */
+  --panel-bg: #17242B;
+  /* Icon */
+  --icon-misc-foreground: #646568;
+  --icon-secondary-foreground: #FFFFFFB2;
+  --icon-muted-foreground: #FFFFFF80;
+  --icon-primary-foreground: #3CBAF8;
+  --icon-foreground: #FFFFFF;
+  /* Page */
+  --page-bg: #0C1A22;
+  /* Text */
+  --text-primary-foreground: #3CBAF8;
+  --text-misc-foreground: #646568;
+  --text-muted-foreground: #FFFFFF80;
+  --text-secondary-foreground: #FFFFFFB2;
+  --text-foreground: #FFFFFF;
+  /* Foregrounds */
+  --foreground-secondary-border: #404D54;
+  --foreground-secondary-bg: #36434A;
+  --foreground-primary-bg: #223038;
+  --foreground-primary-border: #404D544D;
+  --foreground-tertiary-border: #717A7F;
+  --foreground-tertiary-bg: #687277;
+  /* Badges */
+  --badge-primary-bg: #375666;
+  --badge-primary-border: #3C5D6F;
+  --badge-primary-foreground: #3CBAF8;
+  --badge-pink-bg: #5B4357;
+  --badge-pink-border: #674D62;
+  --badge-pink-foreground: #FF8CE6;
+  /* Toggle */
+  --toggle-bg-inactive: #687277;
+  --toggle-bg-active: #3CBAF8;
+  --toggle-fg: #FFFFFF;
+}
+
+/*# sourceMappingURL=colors.css.map */
