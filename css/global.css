@@ -1171,7 +1171,14 @@ details[open] .toggle-icon {
         gap: 20px;
     }
 
-    .hero-section,
+    .hero-section {
+        padding: 0 0 60px 0;
+    }
+
+    .cta-section {
+        padding: 60px 0 0;
+    }
+
     .artists-section,
     .problems-section,
     .solution-section,
@@ -1179,9 +1186,18 @@ details[open] .toggle-icon {
     .non-profit-section,
     .testimonials-section,
     .faq-section,
-    .cta-section
-    {
+    .cta-section {
         padding: 60px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-nav {
+        gap: 2px;
+    }
+
+    .footer-nav {
+        gap: 13px;
     }
 }
 
