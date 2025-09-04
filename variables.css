@@ -1,0 +1,112 @@
+:root {
+    /* 8–16px */
+    --size-8: 0.5rem; /* 8px */
+    --size-10: 0.625rem; /* 10px */
+    --size-12: 0.75rem; /* 12px */
+    --size-14: 0.875rem; /* 14px */
+    --size-16: 1rem; /* 16px */
+
+    /* 18–30px */
+    --size-18: 1.125rem; /* 18px */
+    --size-20: 1.25rem; /* 20px */
+    --size-22: 1.375rem; /* 22px */
+    --size-24: 1.5rem; /* 24px */
+    --size-26: 1.625rem; /* 26px */
+    --size-28: 1.75rem; /* 28px */
+    --size-30: 1.875rem; /* 30px */
+
+    /* 32–44px */
+    --size-32: 2rem; /* 32px */
+    --size-34: 2.125rem; /* 34px */
+    --size-36: 2.25rem; /* 36px */
+    --size-38: 2.375rem; /* 38px */
+    --size-40: 2.5rem; /* 40px */
+    --size-42: 2.625rem; /* 42px */
+    --size-44: 2.75rem; /* 44px */
+
+    /* 46–58px */
+    --size-46: 2.875rem; /* 46px */
+    --size-48: 3rem; /* 48px */
+    --size-50: 3.125rem; /* 50px */
+    --size-52: 3.25rem; /* 52px */
+    --size-54: 3.375rem; /* 54px */
+    --size-56: 3.5rem; /* 56px */
+    --size-58: 3.625rem; /* 58px */
+
+    /* 60–70px */
+    --size-60: 3.75rem; /* 60px */
+    --size-62: 3.875rem; /* 62px */
+    --size-64: 4rem; /* 64px */
+    --size-66: 4.125rem; /* 66px */
+    --size-68: 4.25rem; /* 68px */
+    --size-70: 4.375rem; /* 70px */
+
+    /* 72–84px */
+    --size-72: 4.5rem; /* 72px */
+    --size-74: 4.625rem; /* 74px */
+    --size-76: 4.75rem; /* 76px */
+    --size-78: 4.875rem; /* 78px */
+    --size-80: 5rem; /* 80px */
+    --size-82: 5.125rem; /* 82px */
+    --size-84: 5.25rem; /* 84px */
+
+    /* 86–98px */
+    --size-86: 5.375rem; /* 86px */
+    --size-88: 5.5rem; /* 88px */
+    --size-90: 5.625rem; /* 90px */
+    --size-92: 5.75rem; /* 92px */
+    --size-94: 5.875rem; /* 94px */
+    --size-96: 6rem; /* 96px */
+    --size-98: 6.125rem; /* 98px */
+
+    /* 100px */
+    --size-100: 6.25rem; /* 100px */
+
+    /* 8px */
+    --fs-font-8: clamp(var(--size-8), 1vw, 0.75rem);
+
+    /* 10px */
+    --fs-font-10: clamp(var(--size-10), 1.2vw, 0.875rem);
+
+    /* 12px */
+    --fs-font-12: clamp(var(--size-12), 1.6vw, 1rem);
+
+    /* 14px */
+    --fs-font-14: clamp(var(--size-14), 2vw, 1.125rem);
+
+    /* 16px */
+    --fs-font-16: clamp(var(--size-16), 2.4vw, 1.25rem);
+
+    /* 18px */
+    --fs-font-18: clamp(var(--size-18), 2.8vw, 1.375rem);
+
+    /* 20px */
+    --fs-font-20: clamp(var(--size-20), 3.2vw, 1.5rem);
+
+    /* 22px */
+    --fs-font-22: clamp(var(--size-22), 3.6vw, 1.625rem);
+
+    /* 24px */
+    --fs-font-24: clamp(var(--size-24), 4vw, 1.75rem);
+
+    /* 26px */
+    --fs-font-26: clamp(var(--size-26), 4.4vw, 1.875rem);
+
+    /* 28px */
+    --fs-font-28: clamp(var(--size-28), 4.8vw, 2rem);
+
+    /* 30px */
+    --fs-font-30: clamp(var(--size-30), 5.2vw, 2.125rem);
+
+    /* 32px */
+    --fs-font-32: clamp(var(--size-32), 5.6vw, 2.25rem);
+
+    /* 34px */
+    --fs-font-34: clamp(2.125rem, 5vw, 2.375rem);
+
+    /* 40px */
+    --fs-font-40: clamp(2.5rem, 5.8vw, 2.75rem);
+
+    /* 42px */
+    --fs-font-42: clamp(2.625rem, 6vw, 2.875rem);
+}

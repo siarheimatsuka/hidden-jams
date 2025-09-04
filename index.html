@@ -6,29 +6,62 @@
     <title>New Design</title>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;700&family=Chivo:wght@300;400;700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="size.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="size.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="variables.css">
 </head>
 <body>
 <div class="s1">
     <section id="header" class="header">
         <img class="s11" src="images/Logo-HiddenJams.svg" alt="logo"/>
-        <div class="s26">
-            <div class="s27">
-                <span class="s28">Login</span>
+        <div class="container">
+            <a id="menu-toggle" class="menu-toggle">
+                <span class="menu-toggle-bar menu-toggle-bar--top"></span>
+                <span class="menu-toggle-bar menu-toggle-bar--middle"></span>
+                <span class="menu-toggle-bar menu-toggle-bar--bottom"></span>
+            </a>
+        </div>
+
+        <div class="nav-menu">
+            <div class="nav-menu-items">
+                <div class="menu-btn">
+                    <a class="btn-transparent" href="">About Us</a>
+                </div>
+                <div class="menu-btn">
+                    <a class="btn-transparent" href="">FAQs</a>
+                </div>
+                <a class="btn-grey" href="">
+                    <span>Login</span>
+                </a>
+                <a class="btn-orange" href="">
+                    <span>Sign Up</span>
+                </a>
             </div>
-            <div class="s29">
-                <span class="s28">Sign Up</span>
+        </div>
+        <div class="s2">
+            <a class="btn-transparent" href="">About Us</a>
+            <a class="btn-transparent" href="">FAQs</a>
+            <div class="s26">
+                <a class="btn-grey" href="">Login</a>
+                <a class="btn-orange">Sign Up</a>
             </div>
         </div>
     </section>
     <section class="hero" id="hero">
-        <img class="s3" src="images/Black_and_white_editorial_photo_of_a_person1.png" alt="background-img"/>
+        <img class="back-img" src="images/Black_and_white_editorial_photo_of_a_person1.png" alt="background-img"/>
+        <img class="back-img-mobile" src="images/Black_and_white_editorial_photo_of_a_person-mobile.png"
+             alt="background-img"/>
         <div class="s4"></div>
+
         <div class="s5"></div>
         <div class="s6"></div>
         <div class="s7"></div>
         <div class="s8"></div>
+
         <div class="s9">
             <div class="s31">
                 <div class="s32"><span class="s33">Uncovering <br/>The Songs That</span><span class="s34">Fans Truly Love</span>
@@ -56,11 +89,9 @@
                     artist’s
                     fanbase to uncover hidden gems
                 </span>
-                <div class="s48" data-property-1="Primary">
-                    <span class="s28">
-                        Explore Artists
-                    </span>
-                </div>
+                <a class="btn-orange" href="">
+                    Explore Artists
+                </a>
             </div>
         </div>
         <div class="s30"></div>
@@ -71,11 +102,9 @@
                 <span class="s52">
                     Check Out Artists and See their hidden gem Songs Stack Up
                 </span>
-                <div class="s53">
-                    <span class="s28">
-                        See more artists
-                    </span>
-                </div>
+                <a class="btn-grey sm-web-btn" href="">
+                    See more artists
+                </a>
                 <div class="s65"></div>
             </div>
             <div class="s54">
@@ -235,16 +264,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="s53-mobile">
-                    <span class="s28">
-                        See more artists
-                    </span>
-                </div>
+                <a class="btn-grey sm-mobile-btn" href="">
+                    See more artists
+                </a>
             </div>
         </div>
     </section>
     <section id="problems" class="s49">
-        <div class="s66"></div>
+        <!--        <div class="s66"></div>-->
         <div class="s50">
             <div class="s51-center">
                 <div class="s67">
@@ -253,7 +280,7 @@
             </div>
             <div class="s68">
                 <div class="s69">
-                    <img class="s70" src="images/water-level-down.svg" alt="water-level-down"/>
+                    <img class="s70" src="images/triangle.svg" alt="water-level-down"/>
                     <div class="s74">
                         <span class="s75">
                             Great songs get buried by the algorithm
@@ -264,7 +291,7 @@
                     </div>
                 </div>
                 <div class="s69">
-                    <img class="s70" src="images/ThumbsDown.svg" alt="thumbs-down"/>
+                    <img class="s70" src="images/forward.svg" alt="thumbs-down"/>
                     <div class="s74">
                         <span class="s75">
                             New listeners miss what truly hits
@@ -275,7 +302,7 @@
                     </div>
                 </div>
                 <div class="s69">
-                    <img class="s70" src="images/SmileySad.svg" alt="smiley-sad"/>
+                    <img class="s70" src="images/eye.svg" alt="smiley-sad"/>
                     <div class="s74">
                         <span class="s75">
                             Artists can’t see what really lands
@@ -291,413 +318,67 @@
     <section id="solution" class="s80">
         <div class="s81"></div>
         <div class="s80-container">
-            <div class="s82">
-                <div class="s83">
-                    <div class="s54">
+            <div class="s83">
+                <div class="s54">
                         <span class="s84">
                             We’re Making Song Discovery Fairer and <br/>Fan-Driven
                         </span>
-                        <span class="s85">
+                    <span class="s85">
                             Rather than relying on the commercial popularity or the latest releases, we put the power in
                             the
                             hands of the fans. Every fans can rank their favorite songs, and through the wisdom of the
                             crowd, we’re able to curate a given artist’s fan favorite song rankings from top to bottom.
                         </span>
-                    </div>
-                    <div class="s97">
-                        <div class="s98"></div>
-                        <div class="s99"></div>
-                        <div class="s100"></div>
-                        <div class="s101"></div>
-                        <div class="s102">
-                            <div class="s103">
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s107">
-                                        <div class="s108">
-                                    <span class="s109">
-                                        #2
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s112"
-                                             src="images/solution/2c0fc03abe1d33973145a6300c46e036cc52334a.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            World Leader Pretend - Remastered 2013
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Green (Remastered)
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s119">
-                                        <div class="s108">
-                                    <span class="s109">
-                                        #3
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s120"
-                                             src="images/solution/bfde4c80099729c4a17418536fcdf522dab07768.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Find The River
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Automatic For The People
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s121">
-                                        <div class="s108">
-                                    <span class="s122">
-                                        #4
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <span class="s110">
-                                <img class="s123" src="images/solution/46c21553b11ad8b257d8d021072b0b13aec13478.png"/>
-                            </span>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Talk About The Passion
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Teamwork
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s103">
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s121">
-                                        <div class="s108">
-                                    <span class="s122">
-                                        #6
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s124"
-                                             src="images/solution/45c0f4acf0445b177303e8630b5e5fae9ceeebbd.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Driver 8
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Fables Of The Reconstruction
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s121">
-                                        <div class="s108">
-                                    <span class="s122">
-                                        #7
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s124"
-                                             src="images/solution/bfde4c80099729c4a17418536fcdf522dab07768.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Nightswimming
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Automatic For The People
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s121">
-                                        <div class="s108">
-                                    <span class="s122">
-                                        #8
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s124"
-                                             src="images/solution/be2e6f7a7a7e4ae6138aa8a68b8733406aef47f9.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Electrolite
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    New Adventures In Hi-Fi
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s121">
-                                        <div class="s108">
-                                    <span class="s122">
-                                        #9
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s124"
-                                             src="images/solution/08a964457d27b74dc7320b91da558f601e436a05.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Carnival Of Sorts (Boxcars)
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Chronic Town
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
-                            </div>
-                            <div class="s105">
-                                <div class="s106">
-                                    <div class="s121">
-                                        <div class="s108">
-                                    <span class="s122">
-                                        #10
-                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="s110">
-                                        <img class="s124"
-                                             src="images/solution/bfde4c80099729c4a17418536fcdf522dab07768.png"/>
-                                    </div>
-                                </div>
-                                <div class="s113">
-                                    <div class="s114">
-                                        <div class="s115">
-                                            <div class="s116">
-                                        <span class="s117">
-                                            Imitation Of Life
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <span class="s118">
-                                    Reveal
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s104"></div>
+                </div>
+                <img class="solution-img" src="images/solution/ilus.png">
+                <img class="solution-img-mobile" src="images/solution/img.png">
+                <div class="s86">
+                    <div class="s87">
+                        <div class="s88">
+                            <div class="s89">
+                                <img class="s90" src="images/solution/design.svg"/>
                             </div>
                         </div>
-                        <div class="s125">
-                            <img class="s138" src="images/solution/c0d36a617eb46165430291f370736f076130a4ba.png"/>
-                            <div class="s126"></div>
-                            <span class="s127">
-                        R.E.M
-                    </span>
-                            <div class="s128"></div>
-                            <div class="s129">
-                        <span class="s130">
-                            7.0
-                        </span>
-                                <span class="s131">
-                            fanstanding
-                        </span>
-                            </div>
-                        </div>
-                        <div class="s132">
-                            <div class="s106">
-                                <div class="s134">
-                                    <div class="s135">
-                                <span class="s136">
-                                    #1
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s137">
-                                    <img class="s138"
-                                         src="images/solution/7e10eb97ee26819d59f1e47ebc421ab8ad00c15c.png"/>
-                                </div>
-                            </div>
-                            <div class="s139">
-                                <div class="s140">
-                                    <div class="s141">
-                                        <div class="s142">
-                                    <span class="s143">
-                                        Pretty Persuasion
-                                    </span>
-                                            <div class="s144">
-                                                <div class="s145"></div>
-                                                <span class="s146">
-                                            Hidden Jam
-                                        </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <span class="s147">
-                                Reckoning - Deluxe Edition
-                            </span>
-                                </div>
-                            </div>
-                            <div class="s148"></div>
-                        </div>
-                        <div class="s149">
-                            <div class="s150"></div>
-                            <div class="s106">
-                                <div class="s151">
-                                    <div class="s135">
-                                <span class="s152">
-                                    #5
-                                </span>
-                                    </div>
-                                </div>
-                                <div class="s137">
-                                    <img class="s153"
-                                         src="images/solution/346cd4a96e7bb7c9b385d5ccb0332659752e9773.png"/>
-                                </div>
-                            </div>
-                            <div class="s139">
-                                <div class="s140">
-                                    <div class="s141">
-                                        <div class="s142">
-                                    <span class="s143">
-                                        Cuyahoga
-                                    </span>
-                                            <div class="s154">
-                                                <div class="s155">
-                                                    <div class="s156">
-                                                        <div class="s157"></div>
-                                                    </div>
-                                                </div>
-                                                <span class="s158">
-                                            Deep Cut
-                                        </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <span class="s147">
-                                Lifes Rich Pageant
-                            </span>
-                                </div>
-                            </div>
-                            <div class="s159"></div>
-                        </div>
-                    </div>
-
-                    <div class="s86">
-                        <div class="s87">
-                            <div class="s88">
-                                <div class="s89">
-                                    <img class="s90" src="images/solution/design.svg"/>
-                                </div>
-                            </div>
-                            <div class="s91">
+                        <div class="s91">
                                 <span class="s92">
                                     Voted by real fans
                                 </span>
-                                <span class="s93">
+                            <span class="s93">
                                     Every ranking is based on listener submissions, not stream counts
                                 </span>
+                        </div>
+                    </div>
+                    <div class="s87">
+                        <div class="s94">
+                            <div class="s89">
+                                <img class="s95" src="images/solution/icon.svg"/>
+
+                                <div class="s95"></div>
                             </div>
                         </div>
-                        <div class="s87">
-                            <div class="s94">
-                                <div class="s89">
-                                    <img class="s95" src="images/solution/icon.svg"/>
-
-                                    <div class="s95"></div>
-                                </div>
-                            </div>
-                            <div class="s91">
+                        <div class="s91">
                                 <span class="s92">
                                     Hidden gems rise to the top
                                 </span>
-                                <span class="s93">
+                            <span class="s93">
                                     Even low-play songs can rank high if fans believe they’re worth hearing.
                                 </span>
+                        </div>
+                    </div>
+                    <div class="s87">
+                        <div class="s94">
+                            <div class="s89">
+                                <img class="s96" src="images/solution/design-rectangles.svg"/>
+                                <div class="s96"></div>
                             </div>
                         </div>
-                        <div class="s87">
-                            <div class="s94">
-                                <div class="s89">
-                                    <img class="s96" src="images/solution/design-rectangles.svg"/>
-                                    <div class="s96"></div>
-                                </div>
-                            </div>
-                            <div class="s91">
+                        <div class="s91">
                                 <span class="s92">
                                     Honest, per-artist rankings
                                 </span>
-                                <span class="s93">
+                            <span class="s93">
                                     Each artist gets their own song list. No cross-genre or leaderboard bias.
                                 </span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -712,6 +393,7 @@
                     <span>Why Today’s music</span>
                     <span>Rankings Don’t Work</span>
                 </div>
+                <span class="s67-subheader">A ranking system shaped by real votes, underrated hits, and passionate fan engagement.</span>
             </div>
             <div class="s161">
                 <div class="s162">
@@ -1039,15 +721,13 @@
                                 Points
                             </span>
                         </div>
-                        <div class="s200">
-                            <span class="s201">
+                        <span class="s201">
                                 Rank What Matters
                             </span>
-                            <span class="s202">
+                        <span class="s202">
                                 Songs earn points based on fan votes, highlighting those that truly resonate, not just
                                 the most played.
                             </span>
-                        </div>
                     </div>
                 </div>
                 <div class="s162">
@@ -1112,15 +792,13 @@
                                 Hidden Jam
                             </span>
                         </div>
-                        <div class="s200">
-                            <span class="s201">
+                        <span class="s201">
                                 Discover Underrated Hits
                             </span>
-                            <span class="s202">
+                        <span class="s202">
                                 Easily find songs that fans rate highly but get low streams on other platforms,
                                 undiscovered favorites that deserve more attention.
                             </span>
-                        </div>
                     </div>
                 </div>
                 <div class="s162">
@@ -1234,15 +912,13 @@
                                 Fanstanding
                             </span>
                         </div>
-                        <div class="s200">
-                            <span class="s201">
+                        <span class="s201">
                                 Measure Passion
                             </span>
-                            <span class="s202">
+                        <span class="s202">
                                 Tracks how deeply fans connect with an artist, a score from 1 to 10 based on dedication
                                 and community support.
                             </span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1371,11 +1047,7 @@
                             Join a community that values genuine fan opinions and helps uncover artists’ real hits.
                         </span>
                 </div>
-                <div class="s328">
-                    <span class="s329">
-                        Explore Artists
-                    </span>
-                </div>
+                <a class="btn-orange">Explore Artists</a>
             </div>
         </div>
         <div class="s330"></div>
@@ -1384,21 +1056,22 @@
         <img class="s332" src="images/Logo-HiddenJams.svg"/>
         <div class="s347">
             <div class="s348">
-                <span class="s349">
+                <span class="btn-transparent footer-btn">
                     FAQs
                 </span>
-                <span class="s349">
+                <span class="btn-transparent footer-btn">
                     About Us
                 </span>
-                <span class="s349">
+                <span class="btn-transparent footer-btn">
                     Terms of Service
                 </span>
-                <span class="s349">
+                <span class="btn-transparent footer-btn">
                     Privacy Policy
                 </span>
             </div>
         </div>
     </section>
 </div>
+<script src="index.js"></script>
 </body>
 </html>

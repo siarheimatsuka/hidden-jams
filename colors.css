@@ -1,0 +1,73 @@
+:root {
+    /* Core Colors */
+    --Core-Color-Abyss-Black: #000000;
+    --Core-Color-Light-White: #FFFFF5;
+    --Core-Color-Ruby-Red: #F05A22;
+    --Core-Color-Sapphire-Blue: #00D7FF;
+    --Core-Color-Emeral-Green: #31FAB4; /* common name */
+    --Core-Color-Emerald-Green: #31FAB4; /* alias for potential typos */
+    --Core-Color-Diamond-Pink: #F6AFFF;
+    --Core-Color-Citrine-Yellow: #F0E601;
+
+    /* Neutral Colors */
+    --Neutral-Color-White: #FFFFFF;
+    --Neutral-Color-Neutral-100: #000000;
+    --Neutral-Color-Neutral-90: #0C0C0C;
+    --Neutral-Color-Neutral-80: #1F1F1F;
+    --Neutral-Color-Neutral-70: #262626;
+    --Neutral-Color-Neutral-60: #3E3E3E;
+    --Neutral-Color-Neutral-50: #535353;
+    --Neutral-Color-Neutral-40: #737373;
+    --Neutral-Color-Neutral-35: #AAAAAA;
+    --Neutral-Color-Neutral-30: #E1E1E1;
+    --Neutral-Color-Neutral-20: #F2F2F2;
+    --Neutral-Color-Neutral-10: #FAFAFA;
+    --Neutral-Color-Section-Background: rgba(31, 31, 31, 0.80);
+
+    /* State Colors */
+    --State-Color-Success-fg: #03D6B3;
+    --State-Color-Success-bg: rgba(3, 214, 179, 0.1);
+    --State-Color-Success-border: rgba(3, 214, 179, 0.3);
+    --State-Color-Error-fg: #FF4C4C;
+    --State-Color-Error-bg: rgba(255, 76, 76, 0.14);
+    --State-Color-Error-border: rgba(255, 76, 76, 0.3);
+    --State-Color-Warning-fg: #F6C845;
+    --State-Color-Warning-bg: rgba(246, 200, 69, 0.14);
+    --State-Color-Warning-border: rgba(246, 200, 69, 0.3);
+
+    /* Tints-Pink */
+    --Tints-Pink-80: #F7BFFF;
+    --Tints-Pink-60: #F9CFFF;
+    --Tints-Pink-40: #FBDFFF;
+    --Tints-Pink-20: #FEEEFF;
+
+    /* Tints-Yellow */
+    --Tints-Yellow-80: #F3EC40;
+    --Tints-Yellow-60: #F8F37F;
+    --Tints-Yellow-40: #FAF7AC;
+    --Tints-Yellow-20: #FBDFFF; /* Value from image OCR might be incorrect */
+
+    /* Tints-Red */
+    --Tints-Red-100: #F27344;
+    --Tints-Red-600: #F7A485;
+    --Tints-Red-400: #F9BDA8;
+    --Tints-Red-200: #FBD6C8;
+
+    /* Tints-Blue */
+    --Tints-Blue-80: #25DDFF;
+    --Tints-Blue-60: #72E9FF;
+    --Tints-Blue-40: #BFF6FF;
+    --Tints-Blue-20: #F2FDFF;
+
+    /* Tints-Green */
+    --Tints-Green-80: #51FABF;
+    --Tints-Green-60: #70FBCA;
+    --Tints-Green-40: #ACFDE1;
+    --Tints-Green-20: #CCFDEC;
+
+    /* Misc / Uncategorized from original file */
+    --Tints-Pink-Tints-Pink-80-SoftDark: rgba(247, 191, 255, 0.15);
+    --Tints-Blue-Tints-Blue-80-SoftDark: rgba(37, 221, 255, 0.15);
+    --Badge-Pink-border: #674D62;
+    --Text-text-foreground: #FFFFFF;
+}
